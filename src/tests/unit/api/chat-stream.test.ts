@@ -1,7 +1,6 @@
 import { geminiFlashModel } from "@/lib/google-ai";
 import { NextRequest } from "next/server";
 import { convertToCoreMessages, streamText } from "ai";
-import { state } from "@/store/store"; 
 import { POST } from "@/app/api/chat-stream/route";
 
 jest.mock("ai"); 
